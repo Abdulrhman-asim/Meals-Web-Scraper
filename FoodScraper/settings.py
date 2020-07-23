@@ -76,9 +76,9 @@ DOWNLOAD_DELAY = 3
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-    'FoodScraper.pipelines.FoodscraperPipeline': 300,
-}
+# ITEM_PIPELINES = {
+#     'FoodScraper.pipelines.FoodscraperPipeline': 300,
+# }
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
 AUTOTHROTTLE_ENABLED = True
